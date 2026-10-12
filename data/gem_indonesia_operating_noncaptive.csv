@@ -1,0 +1,148 @@
+gem_unit_id,plant_name,unit_name,capacity_mw,status,start_year,technology,minemouth,capacity_factor_gem_default,heat_rate_btu_per_kwh,emission_factor_kg_per_tj,annual_co2_mt_gem_modelled
+G100000100040,Adipala power station,Unit 1,660.0,operating,2015.0,supercritical,False,0.64,9249.900000000001,96100,3.470429223424628
+G100000100180,Amurang power station,Unit 1,30.0,operating,2012.0,subcritical,False,0.64,11312.6,96100,0.1929238430730624
+G100000100181,Amurang power station,Unit 2,30.0,operating,2012.0,subcritical,False,0.64,11312.6,96100,0.1929238430730624
+G100000113971,Amurang-2 power station,Unit 1,30.0,operating,2018.0,subcritical,False,0.64,10442.4,96100,0.1780835474520576
+G100000113972,Amurang-2 power station,Unit 2,30.0,operating,2018.0,subcritical,False,0.64,10442.4,96100,0.1780835474520576
+G100000105482,Asam-Asam power station,Unit 1,65.0,operating,2013.0,unknown,True,0.64,11186.5,101000,0.43441797645168
+G100000105483,Asam-Asam power station,Unit 2,65.0,operating,2013.0,unknown,True,0.64,11186.5,101000,0.43441797645168
+G100000100515,Asam-Asam power station,Unit 5,100.0,operating,2024.0,subcritical,True,0.64,10442.4,101000,0.62387923318272
+G100000100516,Asam-Asam power station,Unit 6,100.0,operating,2025.0,subcritical,True,0.64,10442.4,101000,0.62387923318272
+G100000100517,Asam-Asam power station,Unit B-3,65.0,operating,2000.0,subcritical,True,0.64,12182.8,101000,0.4731084184968961
+G100000100518,Asam-Asam power station,Unit B-4,65.0,operating,2000.0,subcritical,True,0.64,12182.8,101000,0.4731084184968961
+G100000100508,Bangka Baru power station,Unit 1,30.0,operating,2014.0,subcritical,False,0.64,11312.6,96100,0.1929238430730624
+G100000100509,Bangka Baru power station,Unit 2,30.0,operating,2014.0,subcritical,False,0.64,11312.6,96100,0.1929238430730624
+G100000100510,Bangko Tengah power station,Unit 1,660.0,operating,2023.0,supercritical,True,0.64,8409.0,96100,3.154935657658752
+G100000100511,Bangko Tengah power station,Unit 2,660.0,operating,2023.0,supercritical,True,0.64,8409.0,96100,3.154935657658752
+G100000100519,Banjarsari power station,Unit 1,110.0,operating,2015.0,subcritical,True,0.64,11312.6,96100,0.7073874246012288
+G100000100520,Banjarsari power station,Unit 2,110.0,operating,2015.0,subcritical,True,0.64,11312.6,96100,0.7073874246012288
+G100000100530,Banten Labuan power station,Unit 1,300.0,operating,2009.0,subcritical,False,0.64,10442.4,96100,1.780835474520576
+G100000100531,Banten Labuan power station,Unit 2,300.0,operating,2010.0,subcritical,False,0.64,10442.4,96100,1.780835474520576
+G100000100532,Banten Lontar power station,Unit 1,315.0,operating,2011.0,subcritical,False,0.64,10442.4,96100,1.869877248246605
+G100000100533,Banten Lontar power station,Unit 2,315.0,operating,2012.0,subcritical,False,0.64,10442.4,96100,1.869877248246605
+G100000100534,Banten Lontar power station,Unit 3,315.0,operating,2012.0,subcritical,False,0.64,10442.4,96100,1.869877248246605
+G100000100535,Banten Lontar power station,Unit 4,315.0,operating,2024.0,ultra-supercritical,False,0.64,9099.2,96100,1.629355996441958
+G100000100536,Banten Serang power station,Unit 1,660.0,operating,2017.0,supercritical,False,0.64,8409.0,96100,3.154935657658752
+G100000100539,Banten Suralaya power station,Phase I Unit 1,400.0,operating,1984.0,subcritical,False,0.64,11747.7,96100,2.671253211780864
+G100000100540,Banten Suralaya power station,Phase I Unit 2,400.0,operating,1985.0,subcritical,False,0.64,11747.7,96100,2.671253211780864
+G100000100541,Banten Suralaya power station,Phase I Unit 3,400.0,operating,1988.0,subcritical,False,0.64,11747.7,96100,2.671253211780864
+G100000100542,Banten Suralaya power station,Phase I Unit 4,400.0,operating,1989.0,subcritical,False,0.64,11747.7,96100,2.671253211780864
+G100000100543,Banten Suralaya power station,Phase II Unit 1,600.0,operating,1996.0,subcritical,False,0.64,10877.5,96100,3.7100739052512
+G100000100544,Banten Suralaya power station,Phase II Unit 2,600.0,operating,1997.0,subcritical,False,0.64,10442.4,96100,3.561670949041153
+G100000100545,Banten Suralaya power station,Phase II Unit 3,600.0,operating,1997.0,subcritical,False,0.64,10442.4,96100,3.561670949041153
+G100000100537,Banten Suralaya power station,Unit 08,625.0,operating,2011.0,subcritical,False,0.64,9572.2,96100,3.4009010798136
+G100000100538,Banten Suralaya power station,Unit 09,1000.0,operating,2025.0,ultra-supercritical,False,0.64,8272.0,96100,4.7023261080576
+G100000113472,Banten Suralaya power station,Unit 10,1000.0,operating,2025.0,ultra-supercritical,False,0.64,8272.0,96100,4.7023261080576
+G100000100643,Barru power station,Phase II Unit 1,100.0,operating,2023.0,subcritical,False,0.64,10442.4,96100,0.593611824840192
+G100000100641,Barru power station,Unit 1,50.0,operating,2013.0,subcritical,False,0.64,11312.6,96100,0.321539738455104
+G100000100642,Barru power station,Unit 2,50.0,operating,2013.0,subcritical,False,0.64,11312.6,96100,0.321539738455104
+G100000115057,Bengkayang Power Station,Unit 1,50.0,operating,2018.0,unknown,False,0.64,10326.0,96100,0.29349745763904
+G100000115058,Bengkayang Power Station,Unit 2,50.0,operating,2019.0,unknown,False,0.64,10326.0,96100,0.29349745763904
+G100000100757,Bengkulu power station,Unit 1,100.0,operating,2019.0,subcritical,False,0.64,10442.4,96100,0.593611824840192
+G100000112736,Bengkulu power station,Unit 2,100.0,operating,2019.0,subcritical,False,0.64,10442.4,96100,0.593611824840192
+G100000101097,Bukit Asam Muara Enim power station,Unit 1,65.0,operating,1987.0,subcritical,True,0.64,12617.9,96100,0.4662326207599009
+G100000101098,Bukit Asam Muara Enim power station,Unit 2,65.0,operating,1987.0,subcritical,True,0.64,12617.9,96100,0.4662326207599009
+G100000101099,Bukit Asam Muara Enim power station,Unit 3,65.0,operating,1994.0,subcritical,True,0.64,12617.9,96100,0.4662326207599009
+G100000101100,Bukit Asam Muara Enim power station,Unit 4,65.0,operating,1994.0,subcritical,True,0.64,12617.9,96100,0.4662326207599009
+G100000101254,Celukan Bawang power station,Unit 1,142.0,operating,2015.0,subcritical,False,0.64,11312.6,96100,0.9131728572124954
+G100000101255,Celukan Bawang power station,Unit 2,142.0,operating,2015.0,subcritical,False,0.64,11312.6,96100,0.9131728572124954
+G100000101256,Celukan Bawang power station,Unit 3,142.0,operating,2015.0,subcritical,False,0.64,11312.6,96100,0.9131728572124954
+G100000101261,Central Java Power Project,Unit 1,950.0,operating,2022.0,ultra-supercritical,False,0.64,8272.0,96100,4.46720980265472
+G100000101262,Central Java Power Project,Unit 2,950.0,operating,2022.0,ultra-supercritical,False,0.64,8272.0,96100,4.46720980265472
+G100000101586,Cilacap Sumber power station,Phase I Unit 1,300.0,operating,2006.0,subcritical,False,0.64,11312.6,96100,1.929238430730624
+G100000101587,Cilacap Sumber power station,Phase I Unit 2,300.0,operating,2006.0,subcritical,False,0.64,11312.6,96100,1.929238430730624
+G100000101588,Cilacap Sumber power station,Phase II Unit 3,660.0,operating,2016.0,supercritical,False,0.64,9249.900000000001,96100,3.470429223424628
+G100000101589,Cilacap Sumber power station,Phase III Unit 4,1000.0,operating,2019.0,ultra-supercritical,False,0.64,8272.0,96100,4.7023261080576
+G100000101590,Cirebon power station,Unit 1,660.0,operating,2012.0,supercritical,False,0.64,9249.900000000001,96100,3.470429223424628
+G100000101591,Cirebon power station,Unit 2,924.0,operating,2023.0,ultra-supercritical,False,0.64,8272.0,96100,4.344949323845222
+G100000102626,Embalut power station,Unit 3,60.0,operating,2014.0,subcritical,True,0.64,11312.6,96100,0.3858476861461248
+G100000104852,Indramayu power station,Unit 1,330.0,operating,2010.0,subcritical,False,0.64,10442.4,96100,1.958919021972634
+G100000104853,Indramayu power station,Unit 2,330.0,operating,2011.0,subcritical,False,0.64,10442.4,96100,1.958919021972634
+G100000104854,Indramayu power station,Unit 3,330.0,operating,2011.0,subcritical,False,0.64,10442.4,96100,1.958919021972634
+G100000104986,Jawa-7 power station,Unit 1,991.0,operating,2019.0,ultra-supercritical,False,0.64,8272.0,96100,4.660005173085081
+G100000104987,Jawa-7 power station,Unit 2,991.0,operating,2020.0,ultra-supercritical,False,0.64,8272.0,96100,4.660005173085081
+G100000105465,Kalbar-1 power station,Unit 1,100.0,operating,2020.0,subcritical,False,0.64,10442.4,96100,0.593611824840192
+G100000113441,Kalbar-1 power station,Unit 2,100.0,operating,2021.0,subcritical,False,0.64,10442.4,96100,0.593611824840192
+G100000105484,Kalselteng-1 power station,Unit 1,100.0,operating,2020.0,subcritical,True,0.64,10442.4,96100,0.593611824840192
+G100000105485,Kalselteng-1 power station,Unit 2,100.0,operating,2020.0,subcritical,True,0.64,10442.4,96100,0.593611824840192
+G100000105488,Kalteng-1 Pulang Pisau power station,Unit 1,60.0,operating,2015.0,subcritical,False,0.64,11312.6,96100,0.3858476861461248
+G100000105489,Kalteng-1 Pulang Pisau power station,Unit 2,60.0,operating,2015.0,subcritical,False,0.64,11312.6,96100,0.3858476861461248
+G100000105490,Kaltim FTP2 power station,Unit 1,100.0,operating,2019.0,subcritical,False,0.64,10442.4,96100,0.593611824840192
+G100000105491,Kaltim FTP2 power station,Unit 2,100.0,operating,2020.0,subcritical,False,0.64,10442.4,96100,0.593611824840192
+G100000105492,Kaltim Teluk Balikpapan power station,Unit 1,110.0,operating,2017.0,subcritical,False,0.64,10442.4,96100,0.6529730073242112
+G100000105493,Kaltim Teluk Balikpapan power station,Unit 2,110.0,operating,2017.0,subcritical,False,0.64,10442.4,96100,0.6529730073242112
+G100000105496,Kaltim-4 power station,Unit 1,100.0,operating,2020.0,subcritical,True,0.64,10442.4,96100,0.593611824840192
+G100000105497,Kaltim-4 power station,Unit 2,100.0,operating,2020.0,subcritical,True,0.64,10442.4,96100,0.593611824840192
+G100000105632,Keban Agung power station,Unit 1,135.0,operating,2015.0,subcritical,True,0.64,11312.6,96100,0.8681572938287808
+G100000105633,Keban Agung power station,Unit 2,135.0,operating,2015.0,subcritical,True,0.64,11312.6,96100,0.8681572938287808
+G100000105669,Kendari-3 power station,Unit 1,50.0,operating,2019.0,subcritical,False,0.64,10442.4,96100,0.296805912420096
+G100000105670,Kendari-3 power station,Unit 2,50.0,operating,2019.0,subcritical,False,0.64,10442.4,96100,0.296805912420096
+G100000106084,Labuhan Angin power station,Unit 1,115.0,operating,2008.0,subcritical,False,0.64,11312.6,101000,0.777249544673472
+G100000106085,Labuhan Angin power station,Unit 2,115.0,operating,2008.0,subcritical,False,0.64,11312.6,101000,0.777249544673472
+G100000106136,Lampung Sebalang power station,Unit 1,100.0,operating,2015.0,subcritical,False,0.64,11312.6,94600,0.633041815980288
+G100000106137,Lampung Sebalang power station,Unit 2,100.0,operating,2015.0,subcritical,False,0.64,11312.6,94600,0.633041815980288
+G100000107177,Nagan Raya power station,Unit 1,110.0,operating,2013.0,subcritical,False,0.64,11312.6,96100,0.7073874246012288
+G100000107178,Nagan Raya power station,Unit 2,110.0,operating,2014.0,subcritical,False,0.64,11312.6,96100,0.7073874246012288
+G100000107179,Nagan Raya power station,Unit 3,225.0,operating,2023.0,subcritical,False,0.64,10442.4,96100,1.335626605890432
+G100000107180,Nagan Raya power station,Unit 4,225.0,operating,2023.0,subcritical,False,0.64,10442.4,96100,1.335626605890432
+G100000107624,Ombilin power station,Unit 1,100.0,operating,1996.0,subcritical,True,0.64,12617.9,96100,0.7172809550152321
+G100000107625,Ombilin power station,Unit 2,100.0,operating,1997.0,subcritical,True,0.64,12182.8,96100,0.692547128980224
+G100000107729,PLN Paiton Baru power station,Unit 09,660.0,operating,2012.0,subcritical,False,0.64,9572.2,96100,3.591351540283162
+G100000108040,PLN Paiton power station,Unit 1,400.0,operating,1994.0,subcritical,False,0.64,11747.7,96100,2.671253211780864
+G100000108041,PLN Paiton power station,Unit 2,400.0,operating,1993.0,subcritical,False,0.64,11747.7,96100,2.671253211780864
+G100000107720,Pacitan power station,Unit 1,315.0,operating,2011.0,subcritical,False,0.64,10442.4,96100,1.869877248246605
+G100000107721,Pacitan power station,Unit 2,315.0,operating,2011.0,subcritical,False,0.64,10442.4,96100,1.869877248246605
+G100000107730,Paiton-1 power station,Unit 7,615.0,operating,1999.0,subcritical,False,0.64,10442.4,96100,3.650712722767181
+G100000107731,Paiton-1 power station,Unit 8,615.0,operating,1999.0,subcritical,False,0.64,10442.4,96100,3.650712722767181
+G100000107732,Paiton-2 power station,Unit 1,660.0,operating,2000.0,subcritical,False,0.64,10442.4,96100,3.917838043945268
+G100000107733,Paiton-2 power station,Unit 2,660.0,operating,2000.0,subcritical,False,0.64,10442.4,96100,3.917838043945268
+G100000107734,Paiton-3 power station,--,815.0,operating,2012.0,supercritical,False,0.64,9249.900000000001,96100,4.285454268319805
+G100000107744,Palu power station,Unit 5,50.0,operating,2025.0,subcritical,False,0.64,10442.4,96100,0.296805912420096
+G100000113216,Palu power station,Unit 6,50.0,operating,2025.0,subcritical,False,0.64,10442.4,96100,0.296805912420096
+G100000107756,Pangkalan Susu power station,Unit 1,220.0,operating,2015.0,subcritical,False,0.64,11312.6,96100,1.414774849202458
+G100000107757,Pangkalan Susu power station,Unit 2,220.0,operating,2014.0,subcritical,False,0.64,11312.6,96100,1.414774849202458
+G100000107758,Pangkalan Susu power station,Unit 3,200.0,operating,2019.0,subcritical,False,0.64,10442.4,96100,1.187223649680384
+G100000107759,Pangkalan Susu power station,Unit 4,200.0,operating,2019.0,subcritical,False,0.64,10442.4,96100,1.187223649680384
+G100000107915,Pekanbaru Tenayan power station,Unit 1,110.0,operating,2016.0,subcritical,False,0.64,11312.6,96100,0.7073874246012288
+G100000107916,Pekanbaru Tenayan power station,Unit 2,110.0,operating,2017.0,subcritical,False,0.64,10442.4,96100,0.6529730073242112
+G100000107917,Pelabuhan Ratu power station,Unit 1,350.0,operating,2013.0,subcritical,False,0.64,10442.4,96100,2.077641386940672
+G100000107918,Pelabuhan Ratu power station,Unit 2,350.0,operating,2013.0,subcritical,False,0.64,10442.4,96100,2.077641386940672
+G100000107919,Pelabuhan Ratu power station,Unit 3,350.0,operating,2013.0,subcritical,False,0.64,10442.4,96100,2.077641386940672
+G100000108234,Punagaya power station,Phase I Unit 1,125.0,operating,2011.0,subcritical,False,0.64,11312.6,96100,0.8038493461377599
+G100000108235,Punagaya power station,Phase I Unit 2,125.0,operating,2011.0,subcritical,False,0.64,11312.6,96100,0.8038493461377599
+G100000108236,Punagaya power station,Phase II Unit 3,135.0,operating,2018.0,subcritical,False,0.64,10442.4,96100,0.8013759635342592
+G100000108237,Punagaya power station,Phase II Unit 4,135.0,operating,2018.0,subcritical,False,0.64,10442.4,96100,0.8013759635342592
+G100000108526,Rembang power station,Unit 1,315.0,operating,2011.0,subcritical,False,0.64,10442.4,96100,1.869877248246605
+G100000108527,Rembang power station,Unit 2,315.0,operating,2011.0,subcritical,False,0.64,10442.4,96100,1.869877248246605
+G100000109397,Shenhua Guohua power station,Unit 1,150.0,operating,2013.0,subcritical,True,0.64,11312.6,101000,1.01380375392192
+G100000109398,Shenhua Guohua power station,Unit 2,150.0,operating,2013.0,subcritical,True,0.64,11312.6,101000,1.01380375392192
+G100000109670,Sulbagut-1 power station,Unit 1,50.0,operating,2022.0,subcritical,False,0.64,10442.4,96100,0.296805912420096
+G100000109671,Sulbagut-1 power station,Unit 2,50.0,operating,2022.0,subcritical,False,0.64,10442.4,96100,0.296805912420096
+G100000109686,Sulut-1 power station,Unit 1,50.0,operating,2025.0,subcritical,False,0.64,10442.4,96100,0.296805912420096
+G100000113218,Sulut-1 power station,Unit 2,50.0,operating,2025.0,subcritical,False,0.64,10442.4,96100,0.296805912420096
+G100000109687,Sulut-3 power station,Unit 1,50.0,operating,2021.0,subcritical,False,0.64,10442.4,96100,0.296805912420096
+G100000109688,Sulut-3 power station,Unit 2,50.0,operating,2021.0,subcritical,False,0.64,10442.4,96100,0.296805912420096
+G100000109696,Sumsel-1 power station,Unit 1,350.0,operating,2025.0,supercritical,True,0.64,9249.900000000001,96100,1.840379133634272
+G100000109697,Sumsel-1 power station,Unit 2,350.0,operating,2025.0,supercritical,True,0.64,9249.900000000001,96100,1.840379133634272
+G100000109700,Sumsel-5 power station,Unit 1,150.0,operating,2016.0,subcritical,True,0.64,11312.6,96100,0.964619215365312
+G100000109701,Sumsel-5 power station,Unit 2,150.0,operating,2016.0,subcritical,True,0.64,11312.6,96100,0.964619215365312
+G100000109790,Tabalong power station,Unit 1,100.0,operating,2019.0,subcritical,True,0.64,10442.4,101000,0.62387923318272
+G100000109791,Tabalong power station,Unit 2,100.0,operating,2019.0,subcritical,True,0.64,10442.4,101000,0.62387923318272
+G100000109863,Takalar power station,Unit 1,100.0,operating,2017.0,subcritical,False,0.64,10442.4,96100,0.593611824840192
+G100000109864,Takalar power station,Unit 2,100.0,operating,2018.0,subcritical,False,0.64,10442.4,96100,0.593611824840192
+G100000109946,Tanjung Awar-Awar power station,Unit 1,350.0,operating,2012.0,subcritical,False,0.64,10442.4,96100,2.077641386940672
+G100000109947,Tanjung Awar-Awar power station,Unit 2,350.0,operating,2013.0,subcritical,False,0.64,10442.4,96100,2.077641386940672
+G100000109960,Tanjung Jati B power station,Unit 1,660.0,operating,2006.0,subcritical,False,0.64,10442.4,94600,3.85668552504914
+G100000109961,Tanjung Jati B power station,Unit 2,660.0,operating,2006.0,subcritical,False,0.64,10442.4,94600,3.85668552504914
+G100000109956,Tanjung Jati B power station,Unit 3,660.0,operating,2011.0,subcritical,False,0.64,9572.2,94600,3.535295064628378
+G100000109957,Tanjung Jati B power station,Unit 4,660.0,operating,2012.0,subcritical,False,0.64,9572.2,94600,3.535295064628378
+G100000109958,Tanjung Jati B power station,Unit 5,1000.0,operating,2022.0,ultra-supercritical,False,0.64,8272.0,96100,4.7023261080576
+G100000109959,Tanjung Jati B power station,Unit 6,1000.0,operating,2022.0,ultra-supercritical,False,0.64,8272.0,96100,4.7023261080576
+G100000109962,Tanjung Kasam power station,Unit 1,65.0,operating,2012.0,subcritical,False,0.64,11312.6,96100,0.4180016599916352
+G100000109963,Tanjung Kasam power station,Unit 2,65.0,operating,2012.0,subcritical,False,0.64,11312.6,96100,0.4180016599916352
+G100000109971,Tarahan power station,Unit 3,100.0,operating,2008.0,subcritical,False,0.64,11312.6,96100,0.643079476910208
+G100000109972,Tarahan power station,Unit 4,100.0,operating,2007.0,subcritical,False,0.64,11312.6,96100,0.643079476910208
+G100000109998,Teluk Sirih power station,Unit 1,112.0,operating,2013.0,subcritical,False,0.64,11312.6,96100,0.720249014139433
+G100000109999,Teluk Sirih power station,Unit 2,112.0,operating,2013.0,subcritical,False,0.64,11312.6,96100,0.720249014139433
+G100000110178,Timor-1 power station,Unit 1,50.0,operating,2024.0,subcritical,False,0.64,10442.4,96100,0.296805912420096
+G100000110179,Timor-1 power station,Unit 2,50.0,operating,2024.0,subcritical,False,0.64,10442.4,96100,0.296805912420096
