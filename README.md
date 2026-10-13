@@ -90,6 +90,8 @@ Change in net cost, four tiers vs single benchmark, base case, $M per year (posi
 | Mid | -4.9 | -10.9 | -24.3 | -43.8 |
 | Large | +16.4 | +36.9 | +82.0 | +147.5 |
 
+![Who pays under four tiers at the legal carbon tax of $2/t](figures/stage4b_price.png)
+
 In the Monte Carlo at $2/t the large tier pays more in 100% of runs (median +$17.3M, 5th-95th percentile +$16.8M to +$17.8M). The price changes the size of the transfer, not who pays or the ranking of tiers. Because generation is fixed and total allowances are equal, total abatement is unchanged: tiering moves the bill, not the carbon price.
 
 ## Real vs assumed
