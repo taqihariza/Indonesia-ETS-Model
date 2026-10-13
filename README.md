@@ -114,3 +114,7 @@ To rebuild the data file from GEM's original workbook: `python src/clean_gem.py 
 Global Energy Monitor, *Global Coal Plant Tracker*, July 2026 release. Licensed under CC BY 4.0. https://globalenergymonitor.org/projects/global-coal-plant-tracker/
 
 The cleaned file in `data/` is a filtered subset (Indonesia, operating, non-captive) with some columns removed.
+
+## License
+
+Code: MIT, see the LICENSE file. The data in data/ comes from Global Energy Monitor under CC BY 4.0 (see Data attribution above).
