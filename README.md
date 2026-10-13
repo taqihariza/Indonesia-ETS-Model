@@ -4,9 +4,11 @@ A small, reproducible Python model of Indonesia's power-sector emissions trading
 
 Status: complete through Stage 4b. This is a learning and portfolio project, not a forecast and not policy advice.
 
-## Main finding so far
+## Main finding
 
 With tradable allowances and fixed generation, tiering the benchmark by plant size **does not change the carbon price or total abatement**. It only moves money between plants. On the real Indonesian coal fleet (Stage 4b), large non-mine-mouth plants (over 400 MW) pay more under four tiers than under a single benchmark in all 1000 simulated runs, while small, mine-mouth and mid-size plants pay less.
+
+**The size of the transfer depends on the price; who pays does not.** The transfer is the carbon price times the allowances shifted (about 8.2 Mt away from the large tier in the base case). At the legal carbon tax of about $2/t (not in force, used as a reference price) the large tier pays about $17M a year more; at the model's own price of about $8.8/t, which comes from assumed abatement costs, about $63M a year (the chart below). See the fixed-price section further down.
 
 ![Stage 4b result](figures/stage4b.png)
 
@@ -21,6 +23,7 @@ With tradable allowances and fixed generation, tiering the benchmark by plant si
 | Robustness | Monte Carlo over 1000 random synthetic fleets | `src/ets_robustness.py` |
 | 4b | Same comparison on the **real** fleet from the GEM Global Coal Plant Tracker | `src/ets_stage4b.py` |
 | 4b sensitivity | Re-runs 4b with only units of 100 MW or more, and with the mine-mouth flag ignored | `src/ets_stage4b_sensitivity.py` |
+| 4b fixed price | Cost of the tier split at a price set by hand (the $2/t carbon tax), plus $4.5, $10 and $18 | `src/ets_stage4b_price.py` |
 | Data | Cleans the GEM workbook to a small CSV | `src/clean_gem.py` |
 
 ## Stage 4b: real fleet
@@ -127,6 +130,8 @@ In the Monte Carlo at $2/t the large tier pays more in 100% of runs (median +$17
 Outputs: figures go to `figures/`, and the Monte Carlo table goes to `outputs/` (not tracked by git).
 
 To rebuild the data file from GEM's original workbook: `python src/clean_gem.py path/to/Global-Coal-Plant-Tracker-July-2026.xlsx`. See `data/README.md` for the columns.
+
+Fixed-price run at the legal carbon tax: `python src/ets_stage4b_price.py`
 
 ## Data attribution
 
