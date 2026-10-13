@@ -20,6 +20,7 @@ With tradable allowances and fixed generation, tiering the benchmark by plant si
 | 4a | Four-tier benchmark vs a single benchmark with the same total allowances, synthetic fleet | `src/ets_stage4a.py` |
 | Robustness | Monte Carlo over 1000 random synthetic fleets | `src/ets_robustness.py` |
 | 4b | Same comparison on the **real** fleet from the GEM Global Coal Plant Tracker | `src/ets_stage4b.py` |
+| 4b sensitivity | Re-runs 4b with only units of 100 MW or more, and with the mine-mouth flag ignored | `src/ets_stage4b_sensitivity.py` |
 | Data | Cleans the GEM workbook to a small CSV | `src/clean_gem.py` |
 
 ## Stage 4b: real fleet
@@ -55,6 +56,20 @@ Carbon price and total abatement are the same under both rules ($8.83 per tonne 
 
 **Monte Carlo** (1000 runs): the cap binds in every run; the shortfall is 1.9-2.5% of emissions (5th-95th percentile); the large tier pays more in 100% of runs (median about +$63M per year); the other three tiers pay less in every run.
 
+## Stage 4b: sensitivity checks
+
+The same model and the same 1000-run Monte Carlo, run on three versions of the fleet (`src/ets_stage4b_sensitivity.py`):
+
+| Scenario | Units | Base-case price ($/t) | Large tier: extra cost vs single benchmark ($M per year, base case / Monte Carlo median) | Large tier pays more in |
+|---|---|---|---|---|
+| All 147 units (main case) | 147 | 8.83 | +72.4 / +63.2 | 100% of runs |
+| Only units of 100 MW or more | 112 | 12.17 | +78.2 / +68.5 | 100% of runs |
+| Mine-mouth flag ignored (units tiered by size only) | 147 | 13.24 | +96.5 / +84.6 | 100% of runs |
+
+In all three, every other tier pays less in every run, and within each scenario the carbon price is identical under the four-tier and single benchmarks. What changes is the size of the transfer. The price level also differs between scenarios because the cap itself changes: dropping the small tier, or the mine-mouth tier's looser benchmark, changes total allowances. Price levels depend on the assumed abatement costs and are illustrative only.
+
+Why these two checks: GEM flags 22 units of 100 MW or more as mine-mouth, while ESDM reported 14 mine-mouth units in Phase 1, so the flag may not match the official classification. And ESDM's Phase 1 list (99 units) is smaller than the GEM fleet.
+
 ## Real vs assumed
 
 | Item | Status |
@@ -88,6 +103,7 @@ Carbon price and total abatement are the same under both rules ($8.83 per tonne 
 1. Create and activate a virtual environment: `python -m venv .venv` then `source .venv/bin/activate`
 2. Install packages: `pip install -r requirements.txt`
 3. Run from the repo root: `python src/ets_stage4b.py`
+4. Sensitivity checks: `python src/ets_stage4b_sensitivity.py`
 
 Outputs: figures go to `figures/`, and the Monte Carlo table goes to `outputs/` (not tracked by git).
 
