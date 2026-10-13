@@ -2,7 +2,7 @@
 
 A small, reproducible Python model of Indonesia's power-sector emissions trading scheme (ETS), built step by step with numpy, pandas and matplotlib. The main question: **does giving big and small coal plants different emission benchmarks (tiering) change the carbon price, or only who pays?**
 
-Status: work in progress. This is a learning and portfolio project, not a forecast and not policy advice.
+Status: complete through Stage 4b. This is a learning and portfolio project, not a forecast and not policy advice.
 
 ## Main finding so far
 
@@ -81,8 +81,8 @@ Why these two checks: GEM flags 22 units of 100 MW or more as mine-mouth, while 
 | Capacity factor | **Assumed.** GEM only has a flat default of 0.64 for every unit; the Monte Carlo draws 0.50-0.85 |
 | Generation and emissions | **Modelled** from capacity, capacity factor and intensity. GEM has no measured generation or emissions |
 | Abatement potential and abatement cost | **Assumed.** Not public. Random ranges above |
-| Benchmark values | Match the Phase 1 emission ceilings in MEMR Decree 14.K/TL.04/MEM.L/2023 (same values for 2023 and 2024), as summarised in a Makarim law-firm advisory. The decree text itself has not yet been read. Permen ESDM 16/2022 is the framework regulation, not the source of these numbers |
-| Carbon price level (about $6-9 per tonne) | **Result of the assumed abatement costs.** Not a forecast and not an observed price |
+| Benchmark values | Phase 1 emission ceilings from MEMR Decree 14.K/TL.04/MEM.L/2023 (same values for 2023 and 2024), as summarised in a Makarim law-firm advisory. Permen ESDM 16/2022 is the framework regulation, not the source of these numbers |
+| Carbon price level (about $6-13 per tonne across scenarios) | **Result of the assumed abatement costs.** Not a forecast and not an observed price |
 
 ## Limitations
 
