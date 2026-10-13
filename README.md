@@ -70,6 +70,25 @@ In all three, every other tier pays less in every run, and within each scenario 
 
 Why these two checks: GEM flags 22 units of 100 MW or more as mine-mouth, while ESDM reported 14 mine-mouth units in Phase 1, so the flag may not match the official classification. And ESDM's Phase 1 list (99 units) is smaller than the GEM fleet.
 
+## Stage 4b: fixed price at the legal carbon tax
+
+**Why a fixed price.** The price in the main run comes out of my assumed abatement costs, so it is not evidence. There is no observed ETS price to use instead: no PTBAE-PU allowance has traded yet. Carbon credits do trade on IDXCarbon, thinly, at roughly Rp40,000-69,600 per tonne (about $2.5-4.5), but those are credits, not power-sector allowances. The one price the government has written down is the carbon tax in Law No. 7/2021: Rp30,000 per tonne CO2e, about $2. It is not in force, it is not a market price, and the final hybrid cap-and-tax design is unsettled. I use it only as a **reference price** and show other prices as sensitivity.
+
+**What changes.** With the price fixed by hand, the cost change for a tier is simply price x (allowances under a single benchmark minus allowances under four tiers). Abatement costs drop out. Only generation (capacity factor) matters, so the Monte Carlo redraws capacity factor only (1,000 runs, seed 42). Run it with `python src/ets_stage4b_price.py`.
+
+**Allowances shifted (base case):** the large tier (over 400 MW) gets about **8.2 Mt fewer** allowances under four tiers; small, mine-mouth and mid get 3.2, 2.5 and 2.4 Mt more. That gap does not depend on price, so each $1/t of price moves about **$8.2M per year** onto the large tier.
+
+Change in net cost, four tiers vs single benchmark, base case, $M per year (positive = pays more):
+
+| Tier | $2/t (carbon tax) | $4.5/t | $10/t | $18/t |
+|---|---|---|---|---|
+| Small | -6.5 | -14.5 | -32.3 | -58.1 |
+| Mine-mouth | -5.1 | -11.4 | -25.4 | -45.7 |
+| Mid | -4.9 | -10.9 | -24.3 | -43.8 |
+| Large | +16.4 | +36.9 | +82.0 | +147.5 |
+
+In the Monte Carlo at $2/t the large tier pays more in 100% of runs (median +$17.3M, 5th-95th percentile +$16.8M to +$17.8M). The price changes the size of the transfer, not who pays or the ranking of tiers. Because generation is fixed and total allowances are equal, total abatement is unchanged: tiering moves the bill, not the carbon price.
+
 ## Real vs assumed
 
 | Item | Status |
@@ -82,17 +101,17 @@ Why these two checks: GEM flags 22 units of 100 MW or more as mine-mouth, while 
 | Generation and emissions | **Modelled** from capacity, capacity factor and intensity. GEM has no measured generation or emissions |
 | Abatement potential and abatement cost | **Assumed.** Not public. Random ranges above |
 | Benchmark values | Phase 1 emission ceilings from MEMR Decree 14.K/TL.04/MEM.L/2023 (same values for 2023 and 2024), as summarised in a Makarim law-firm advisory. Permen ESDM 16/2022 is the framework regulation, not the source of these numbers |
-| Carbon price level (about $6-13 per tonne across scenarios) | **Result of the assumed abatement costs.** Not a forecast and not an observed price |
+| Carbon price level (about $6-13 per tonne across scenarios) | **Result of the assumed abatement costs.** Not a forecast and not an observed price (the fixed-price run replaces it with the $2/t carbon tax) |
 
 ## Limitations
 
 - Generation is fixed: no output effects, no change in dispatch when the carbon price changes.
 - Marginal abatement cost curves are linear.
-- No observed market price is used; the price is a model output driven by assumed costs.
+- No observed ETS price exists, because no PTBAE-PU allowance has traded. The main run's price is a model output driven by assumed abatement costs; the fixed-price run uses the legal carbon tax (about $2/t, not in force) as a reference only. IDXCarbon credit trades (about $2.5-4.5/t, thin) are a different instrument.
 - 100% free allocation; no auctioning.
 - No offsets, banking or borrowing.
 - The allowance rule is simplified: allowances = generation x benchmark, with no further adjustments.
-- Scope: all 147 non-captive units of 25 MW or more are included. ESDM reported Phase 1 (2023) as 99 units (33,569 MW) connected to PLN's grid, with the 25 MW threshold applying from 2024. The GEM fleet (147 units, 40,966 MW) is larger than that list, and the difference is not reconciled here (possible causes: grid connection, ownership, newer units, different unit counting).
+- Scope: all 147 non-captive units of 25 MW or more are included (40,966 MW). ESDM's Phase 1 (2023) list was 99 units (33,569 MW) on PLN's grid; the 25 MW threshold applied from 2024, when ESDM's coverage was reported as about 146 coal units and 38.3 GW (per an IETA brief), close to the GEM fleet. I have not matched units one by one against ESDM's list.
 - GEM's mine-mouth flag may not match ESDM's classification: GEM flags 22 units of 100 MW or more as mine-mouth, while ESDM reported 14 mine-mouth units in Phase 1.
 - The 9 mine-mouth units under 100 MW (60-65 MW) are in the small tier, which the decree defines for both mine-mouth and non-mine-mouth plants from 25 MW up to 100 MW.
 - Units at exactly 100 MW (23) and exactly 400 MW (6) are treated as mid-class, matching the decree's 100 MW <= x <= 400 MW.
